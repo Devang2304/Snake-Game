@@ -36,7 +36,8 @@
     border-radius: 30px;
 }
 .food{
-    background-color: rgba(5,102, 102, 62, 0,726);
+    /* background-color: rgba(5,102, 102, 62, 0,726); */
+    background-color: black;
 }
 #highscore{
     position: absolute;
@@ -51,6 +52,7 @@
     position: absolute;
     top: 40px;
     left: 380px;
+    color: rbg(131, 5, 82);
     font-size: 33px;
     font-weight: bold;
     font-family: 'Montserrat',sans-serif;
