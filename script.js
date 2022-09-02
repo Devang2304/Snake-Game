@@ -3,8 +3,7 @@ let inputDir={x:0,y:0};
 const foodSound= new Audio('foodSound.mp3');
 const moveSound=new Audio('moveSound.mp3');
 const musicSound=new Audio('');
-let speed=prompt("Enter the speed of the snake !");
-// let speed=10;
+let speed=prompt("Enter the speed of the snake from 5-10");
 let score=0;
 let lastPaintTime=0;
 //declared the default position of the snake and the food
